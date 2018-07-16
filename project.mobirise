@@ -60,6 +60,14 @@
                 "opacity": "@overlayOpacity"
               }
             },
+            ".gallery-item-wrap": {
+              "pointer-events": "none",
+              "width": "100%",
+              "height": "auto",
+              ".gallery-item": {
+                "pointer-events": "all"
+              }
+            },
             ".gallery-img-wrap": {
               "height": "auto",
               "&:hover": {
